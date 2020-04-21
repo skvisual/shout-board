@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twitter Clone</title>
-    <script src="https://code.jquery.com/jquery-3.5.0.slim.js" integrity="sha256-sCexhaKpAfuqulKjtSY7V9H7QT0TCN90H+Y5NlmqOUE=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -17,12 +16,10 @@
             <label for="name">Name</label>
             <input class="u-full-width" type="text" id="name" name="name">
             <label for="content">Text</label>
-            <textarea class="u-full-width" type="text" id="name" name="content"></textarea>
-            <button class="button-primary">Send your Tweet</button>
+            <textarea class="u-full-width" type="text" id="content" name="content"></textarea>
+            <button class="button-primary">SUBMIT</button>
         </form>
-        <div class="loading">
-            <img src="../client/assets/images/loadingRings.gif" alt="loading circles">
-        </div>
+        <div class="posts"></div>
     </main>
     <script src="client.js"></script>
     
